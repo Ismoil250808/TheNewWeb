@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-width: 1200px;
+    padding: 0 15px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+header {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 25px auto 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul a {
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3a3838;
+    transition: 0.6s;
+}
+
+.active {
+    color: red;
+}
+
+nav ul a:hover {
+    color: red;
+
+}
+
+.header_banner {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 15px;
+}
+
+.news {
+    display: flex;
+}
+
+.news_item {
+    width: 25%;
+    flex-direction: column;
+    display: flex;
+}
+
+.news_pic {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.news_link {
+    padding: 15px;
+    color: white;
+}
+
+.main_title {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.main_desc {
+    color: #ebebeb;
+}
+
+.red {
+    background: brown;
+}
+
+.purple {
+    background: purple;
+}
+
+.blue {
+    background: blue;
+}
+
+.green {
+    background: green;
+}
+
+.main-news_title {
+    font-size: 30px;
+    color: #3a3838;
+    margin: 42px 0 40px;
+    text-align: center;
+}
+
+.main-news_item {
+    background: #ededed;
+}
+
+.main-news_item_pic {
+    width: 530px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.main-news_item_content {
+    margin: 20px 0 30px;
+}
+
+.main-news_item_title {
+    font-size: 24px;
+    color: #3a3838;
+    margin-bottom: 30px;
+}
+
+.main-news_item_desc {
+    font-size: 20px;
+    color: #686868;
+}
+
+.footer_content {
+    width: 1140px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+footer li a{
+    color: #ebebeb;
+}
+
+footer{
+    background: #3a3838;
+    padding: 28px 0;
+    margin: 50px;
+}
